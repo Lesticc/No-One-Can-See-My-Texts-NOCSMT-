@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title="No One Can See My Texts">
+    <meta description="NOCSMT é um editor de textos invisível. Onde você pode escrever textos sem ter que se preocupar de alguma pessoa estar olhando o seu dispositivo. Esse editor pode ser muito bom para você que busca privacidade, ou apenas quer escrever suas coisas em paz. Depois de terminar, você pode salvar a nota no navegador para carregar no site, ou também baixar localmente.">
+    <title> :: NOCSMT :: </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <div class="buttons">
+            <button class="changeView" id="changeView">
+                <img id="w-eye-c" src="./SVGS/weye-closed.svg" alt="Change View">
+                <img id="w-eye-o" src="./SVGS/weye-open.svg" alt="Change View">
+                <img id="b-eye-c" src="./SVGS/beye-closed.svg" alt="Change View">
+                <img id="b-eye-o" src="./SVGS/beye-open.svg" alt="Change View">
+            </button>
+            <button class="changeColor" id="changeColor">
+                <img id="sun" src="./SVGS/Sun.svg" alt="Change Color">
+                <img id="moon" src="./SVGS/Moon.svg" alt="Change Color">
+            </button>
+        </div>
+        <h1>NOCSMT</h1>
+    </header>
+    <textarea id="textarea"></textarea>
+    <button id="ready">Pronto</button>
+
+    <div id="afterReady">
+        <button id="download">Baixar (.txt)</button>
+        <p>Não quer salvar em .txt? Não se preocupe, o site vai deixar seu texto guardado!</p>
+    </div>
+<script src="./js/index.js"></script>
+</body>
+</html>
